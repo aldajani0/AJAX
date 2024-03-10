@@ -1,0 +1,6 @@
+<p> 
+
+AJAX is not a programming language.
+ita technique that combines various technologies to 
+exchange data between the browser and the server.
+ </p>
