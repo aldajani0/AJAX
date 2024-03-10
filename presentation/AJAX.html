@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Programming</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#b1").click(function () {
+                $("#csc304").load("csc.txt");
+            });
+
+            $("#b2").click(function () {
+                $("#CNE401").load("CNE401.txt");
+            });
+
+            $("#b3").click(function () {
+                $("#math246").load("math246.txt");
+            });
+
+        });
+
+    </script>
+
+    <style>
+        h1{color: rgb(44, 44, 100);;font-weight:bolder;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        h2{color:rgb(55, 31, 61);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight:bolder;}
+        button {background-color: rgb(176, 190, 167);color: rgb(43, 43, 64);padding: 8px 10px;border: none ;border-radius: 5px;
+    </style>
+    
+</head>
+
+<body bgcolor="#F5F5DC">
+
+    <h1 align="center"> Welcome to CS webpage!</h1>
+
+    <div align="center" style="color:#adad94; background-color: rgb(59, 59, 81);; font-size: larger;font-weight: bold;">
+        This webpage helps you understand more about your courses
+    </div>
+
+    <hr>
+
+    <h2> Level 6: </h2>
+
+    <h4 id="csc304"> csc304 - web programming </h4>
+    <button id="b1"> Click here for more information </button>
+
+    <h4 id="CNE401">CNE401 - Computer Organization and Architecture </h4>
+    <button id="b2"> Click here for more information </button>
+
+    <h4 id="math246"> math246 - linear algebra </h4>
+    <button id="b3"> Click here for more information </button>
+
+    <h2> Level 7: </h2>
+    
+    <h4> cit403 - operating system </h4>
+    <button> Click here for more information </button>
+    <h4>csc417 - numerical analysis</h4>
+    <button> Click here for more information </button>
+    <h4>csc407 - software engineering </h4>
+    <button>Click here for more information</button>
+
+    
+</body>
+</html>

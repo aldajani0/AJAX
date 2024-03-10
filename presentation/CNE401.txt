@@ -1,0 +1,3 @@
+<p>
+Computer Organization and Architecture studies how computers are designed, including processor architecture, memory systems, input/output mechanisms, and overall system organization. It is crucial for efficient hardware-software interaction and system optimization.
+</p>

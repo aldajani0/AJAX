@@ -1,0 +1,7 @@
+<p> 
+
+This course provides an introduction of web-development techniques
+ that use HTML, CSS and JavaScript as web development essentials 
+ including database connectivity, Basics of Web Development and 
+ Basics of PHP as an advanced technique of web programming.
+ </p>
