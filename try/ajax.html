@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+     <title> AJAX Quiz </title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("#i1").load("");
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="i1">
+        <p> what did you learn about AJAX ?  </p>
+    </div>
+
+    <button id="b1"> click here to see the answare </button>
+
+</body>
+</html>
